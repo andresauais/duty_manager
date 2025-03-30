@@ -2,6 +2,12 @@
 
 A full-stack task management application built with **React**, **TypeScript**, **Ant Design**, **Node**, **Express** and **PostgreSQL**. It allows users to add, edit, complete, and delete "duties" via a clean and responsive interface.
 
+## 🚀 Features
+- ✅ Add new duties
+- 📝 Edit duties
+- ❌ Delete duties
+- ✔️ Mark duties as complete
+  
 ## 🛠 Tech Stack
 
 ### Frontend
@@ -16,8 +22,19 @@ A full-stack task management application built with **React**, **TypeScript**, *
 - PostgreSQL
 - TypeScript
 - Jest
+  
+## 🐳 Run with Docker
+```bash
+docker compose up --build
+```
 
-## Setup
+## Setup locally
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
 ### Backend
 ```bash
@@ -26,28 +43,10 @@ npm install
 npm run start
 ```
 
-### Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-## 🧪 Run Frontend Tests
+## 🧪 Run Tests
 ```bash
 npm run test
 ```
-
-## 🐳 Run with Docker
-```bash
-docker compose up --build
-```
-
-## 🚀 Features
-- ✅ Add new duties
-- 📝 Edit duties
-- ❌ Delete duties
-- ✔️ Mark duties as complete
 
 ## 🖼️ Screenshots
 
