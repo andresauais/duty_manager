@@ -17,7 +17,7 @@ A full-stack task management application built with **React**, **TypeScript**, *
 - React Testing Library + Vitest
 
 ### Backend
-- Node.js
+- Node.js (18)
 - Express.js
 - PostgreSQL
 - TypeScript
